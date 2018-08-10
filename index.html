@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" />
+    <title>HTML CodePen Challenge Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="grid">
+        <div class="quiz" id="quiz">
+          <header class="header">
+            <h1>Quiz</h1>
+          </header>
+            <hr class="style_hr" />
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button class="btn-flex" id="btn0"><span id="choice0"></span></button>
+                <button class="btn-flex" id="btn1"><span id="choice1"></span></button>
+                <button class="btn-flex" id="btn2"><span id="choice2"></span></button>
+                <button class="btn-flex" id="btn3"><span id="choice3"></span></button>
+            </div>
+            
+            <hr class="style_hr" />
+            <footer></p>
+                <p id="progress">Question x of y.</p>
+            </footer>
+        </div>
+    </div>
+    <script src="quiz_controller.js"></script>
+    <script src="question.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
